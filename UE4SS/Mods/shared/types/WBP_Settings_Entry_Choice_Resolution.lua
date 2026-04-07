@@ -1,0 +1,30 @@
+---@meta
+
+---@class UWBP_Settings_Entry_Choice_Resolution_C : UUserWidgetZion
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field WBP_Settings_Entry_Choice_Text UWBP_Settings_Entry_Choice_Text_C
+---@field Resolutions TArray<FIntPoint>
+---@field CurrentResolutionIndex int32
+---@field OnChanged FWBP_Settings_Entry_Choice_Resolution_COnChanged
+local UWBP_Settings_Entry_Choice_Resolution_C = {}
+
+function UWBP_Settings_Entry_Choice_Resolution_C:GenerateResolutions() end
+function UWBP_Settings_Entry_Choice_Resolution_C:RefreshResolutionChoices() end
+---@param MyGeometry FGeometry
+---@param InFocusEvent FFocusEvent
+---@return FEventReply
+function UWBP_Settings_Entry_Choice_Resolution_C:OnFocusReceived(MyGeometry, InFocusEvent) end
+---@param ResolutionIndex int32
+function UWBP_Settings_Entry_Choice_Resolution_C:SetResolution(ResolutionIndex) end
+function UWBP_Settings_Entry_Choice_Resolution_C:RefreshText() end
+function UWBP_Settings_Entry_Choice_Resolution_C:ComputeCurrentResolutionIndex() end
+function UWBP_Settings_Entry_Choice_Resolution_C:Construct() end
+function UWBP_Settings_Entry_Choice_Resolution_C:BndEvt__WBP_Settings_Entry_Choice_Resolution_WBP_Settings_Entry_Choice_Text_K2Node_ComponentBoundEvent_2_OnLeft__DelegateSignature() end
+function UWBP_Settings_Entry_Choice_Resolution_C:BndEvt__WBP_Settings_Entry_Choice_Resolution_WBP_Settings_Entry_Choice_Text_K2Node_ComponentBoundEvent_3_OnRight__DelegateSignature() end
+---@param bInIsEnabled boolean
+function UWBP_Settings_Entry_Choice_Resolution_C:OnSetIsEnabled(bInIsEnabled) end
+---@param EntryPoint int32
+function UWBP_Settings_Entry_Choice_Resolution_C:ExecuteUbergraph_WBP_Settings_Entry_Choice_Resolution(EntryPoint) end
+function UWBP_Settings_Entry_Choice_Resolution_C:OnChanged__DelegateSignature() end
+
+

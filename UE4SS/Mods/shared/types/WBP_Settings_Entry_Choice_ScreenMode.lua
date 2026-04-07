@@ -1,0 +1,23 @@
+---@meta
+
+---@class UWBP_Settings_Entry_Choice_ScreenMode_C : UUserWidgetZion
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field WBP_Settings_Entry_Choice_Text UWBP_Settings_Entry_Choice_Text_C
+---@field OnChanged FWBP_Settings_Entry_Choice_ScreenMode_COnChanged
+local UWBP_Settings_Entry_Choice_ScreenMode_C = {}
+
+---@param MyGeometry FGeometry
+---@param InFocusEvent FFocusEvent
+---@return FEventReply
+function UWBP_Settings_Entry_Choice_ScreenMode_C:OnFocusReceived(MyGeometry, InFocusEvent) end
+function UWBP_Settings_Entry_Choice_ScreenMode_C:RefreshText() end
+function UWBP_Settings_Entry_Choice_ScreenMode_C:Construct() end
+function UWBP_Settings_Entry_Choice_ScreenMode_C:BndEvt__WBP_Settings_Entry_Choice_ScreenMode_WBP_Settings_Entry_Choice_Text_K2Node_ComponentBoundEvent_2_OnLeft__DelegateSignature() end
+function UWBP_Settings_Entry_Choice_ScreenMode_C:BndEvt__WBP_Settings_Entry_Choice_ScreenMode_WBP_Settings_Entry_Choice_Text_K2Node_ComponentBoundEvent_3_OnRight__DelegateSignature() end
+---@param IsDesignTime boolean
+function UWBP_Settings_Entry_Choice_ScreenMode_C:PreConstruct(IsDesignTime) end
+---@param EntryPoint int32
+function UWBP_Settings_Entry_Choice_ScreenMode_C:ExecuteUbergraph_WBP_Settings_Entry_Choice_ScreenMode(EntryPoint) end
+function UWBP_Settings_Entry_Choice_ScreenMode_C:OnChanged__DelegateSignature() end
+
+

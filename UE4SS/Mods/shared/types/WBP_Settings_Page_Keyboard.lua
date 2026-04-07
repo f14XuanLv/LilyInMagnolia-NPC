@@ -1,0 +1,64 @@
+---@meta
+
+---@class UWBP_Settings_Page_Keyboard_C : UWBP_Settings_Page_C
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field WBP_Button_Generic_RevertToDefault UWBP_Button_Generic_C
+---@field WBP_SeparateLine2 UWBP_SeparateLine2_C
+---@field WBP_SeparateLine2_1 UWBP_SeparateLine2_C
+---@field WBP_Settings_Entry_InputSelector_Attack_A UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Attack_B UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Attack_C UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Attack_D UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_CameraDown UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_CameraLeft UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_CameraRight UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_CameraUp UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Dodge UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Down UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Heal UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Hook UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Interact UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Jump UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Left UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Menu UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Minimap UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Pause UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Right UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_SpecialAttack_A UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_SpecialAttack_B UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_SpecialAttack_C UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_SpecialAttack_D UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_SpecialModifier UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_Cancel UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_Confirm UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_Context UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_ContextAlt UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_Down UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_Left UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_Next UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_NextAlt UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_Prev UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_PrevAlt UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_Right UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_UI_Up UWBP_Settings_Entry_InputSelector_C
+---@field WBP_Settings_Entry_InputSelector_Up UWBP_Settings_Entry_InputSelector_C
+---@field WrapBox_GameInputs UWrapBox
+---@field WrapBox_UIInputs UWrapBox
+local UWBP_Settings_Page_Keyboard_C = {}
+
+---@param Target UPanelWidget
+---@param ElementPerLine int32
+function UWBP_Settings_Page_Keyboard_C:SetupCustomNavigation(Target, ElementPerLine) end
+---@param MyGeometry FGeometry
+---@param InFocusEvent FFocusEvent
+---@return FEventReply
+function UWBP_Settings_Page_Keyboard_C:OnFocusReceived(MyGeometry, InFocusEvent) end
+---@param KeyEvent FKeyEvent
+function UWBP_Settings_Page_Keyboard_C:BndEvt__WBP_Settings_Page_Keyboard_WBP_Button_Generic_RevertToDefault_K2Node_ComponentBoundEvent_0_OnPressed__DelegateSignature(KeyEvent) end
+function UWBP_Settings_Page_Keyboard_C:OnConfirmResetToDefault() end
+---@param IsDesignTime boolean
+function UWBP_Settings_Page_Keyboard_C:PreConstruct(IsDesignTime) end
+---@param EntryPoint int32
+function UWBP_Settings_Page_Keyboard_C:ExecuteUbergraph_WBP_Settings_Page_Keyboard(EntryPoint) end
+
+

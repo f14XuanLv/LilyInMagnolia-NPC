@@ -1,0 +1,29 @@
+---@meta
+
+---@class UWBP_Settings_Entry_Choice_AntiAliasingQuality_C : UUserWidgetZion
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field WBP_Settings_Entry_Choice_Text UWBP_Settings_Entry_Choice_Text_C
+---@field CurrIndex int32
+---@field AntiAliasingQualities TArray<FText>
+local UWBP_Settings_Entry_Choice_AntiAliasingQuality_C = {}
+
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:Refresh() end
+---@param MyGeometry FGeometry
+---@param InFocusEvent FFocusEvent
+---@return FEventReply
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:OnFocusReceived(MyGeometry, InFocusEvent) end
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:RefreshText() end
+---@param Index int32
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:SetAAQualityFromIndex(Index) end
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:ComputeCurrIndex() end
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:Construct() end
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:BndEvt__WBP_Settings_Entry_Choice_FPSLimit_WBP_Settings_Entry_Choice_Text_K2Node_ComponentBoundEvent_0_OnLeft__DelegateSignature() end
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:BndEvt__WBP_Settings_Entry_Choice_FPSLimit_WBP_Settings_Entry_Choice_Text_K2Node_ComponentBoundEvent_1_OnRight__DelegateSignature() end
+---@param bInIsEnabled boolean
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:OnSetIsEnabled(bInIsEnabled) end
+---@param IsDesignTime boolean
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:PreConstruct(IsDesignTime) end
+---@param EntryPoint int32
+function UWBP_Settings_Entry_Choice_AntiAliasingQuality_C:ExecuteUbergraph_WBP_Settings_Entry_Choice_AntiAliasingQuality(EntryPoint) end
+
+

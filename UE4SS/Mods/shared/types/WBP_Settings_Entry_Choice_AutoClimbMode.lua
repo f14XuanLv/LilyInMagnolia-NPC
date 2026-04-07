@@ -1,0 +1,21 @@
+---@meta
+
+---@class UWBP_Settings_Entry_Choice_AutoClimbMode_C : UUserWidgetZion
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field WBP_Settings_Entry_Choice_Text UWBP_Settings_Entry_Choice_Text_C
+local UWBP_Settings_Entry_Choice_AutoClimbMode_C = {}
+
+---@param MyGeometry FGeometry
+---@param InFocusEvent FFocusEvent
+---@return FEventReply
+function UWBP_Settings_Entry_Choice_AutoClimbMode_C:OnFocusReceived(MyGeometry, InFocusEvent) end
+function UWBP_Settings_Entry_Choice_AutoClimbMode_C:RefreshText() end
+---@param IsDesignTime boolean
+function UWBP_Settings_Entry_Choice_AutoClimbMode_C:PreConstruct(IsDesignTime) end
+function UWBP_Settings_Entry_Choice_AutoClimbMode_C:Construct() end
+function UWBP_Settings_Entry_Choice_AutoClimbMode_C:BndEvt__WBP_Settings_Entry_Choice_AutoClimbMode_WBP_Settings_Entry_Choice_Text_K2Node_ComponentBoundEvent_0_OnLeft__DelegateSignature() end
+function UWBP_Settings_Entry_Choice_AutoClimbMode_C:BndEvt__WBP_Settings_Entry_Choice_AutoClimbMode_WBP_Settings_Entry_Choice_Text_K2Node_ComponentBoundEvent_1_OnRight__DelegateSignature() end
+---@param EntryPoint int32
+function UWBP_Settings_Entry_Choice_AutoClimbMode_C:ExecuteUbergraph_WBP_Settings_Entry_Choice_AutoClimbMode(EntryPoint) end
+
+
