@@ -8,7 +8,7 @@ BPML_GenericFunctions : 1
 BPModLoaderMod : 1
 jsbLuaProfilerMod : 0
 SpawnCharacterMod : 1
-
+Lilac2LilyMod : 1
 
 ; Built-in keybinds, do not move up!
 Keybinds : 1
